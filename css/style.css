@@ -1,0 +1,5761 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(../images/space3.jpg);
+  /* background-clip: border-box;*/
+  background-size: cover;
+  /* background-clip: padding-box;  */
+  /* scroll-behavior: smooth; */
+}
+
+.header {
+
+  width: 100%;
+  height: 90px;
+  background-color: #00000008;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* background-attachment:fixed; */
+  z-index: 250;
+}
+
+.logo {
+  width: 200px;
+  height: 90px;
+
+  margin-left: 120px;
+
+}
+
+ul {
+  list-style-type: none;
+
+  margin-right: 200px;
+  margin-top: 30px;
+}
+
+.li1 {
+  display: inline-block;
+  margin-left: 80px;
+  color: white;
+  font-size: 17px;
+  opacity: 0.6;
+  /* padding: 20px; */
+}
+
+.li1 a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(95, 3, 244);
+}
+
+.homee a {
+  background-color: white;
+  color: rgb(95, 3, 244);
+  padding: 6px 10px;
+  border-radius: 20px;
+}
+
+.li1 a:hover .homee {
+  color: white;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  padding: 6px 10px;
+  border-radius: 20px;
+}
+
+.sel {
+  width: 200px;
+  height: 50px;
+  margin: 30px 0px 0px 30px;
+  display: none;
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* X-Small devices (portrait phones, less than 320px) */
+@media (min-width: 320px) {
+  .header {
+
+    width: 100%;
+    height: 150px;
+    background-color: #00000008;
+    /* display: flex; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border:3px solid rgb(233, 230, 230) ; */
+    /* background-attachment:fixed; */
+    z-index: 250;
+  }
+
+  .logo {
+    width: 180px;
+    height: 130px;
+
+    margin-left: 5px;
+    /* border: 1px solid brown; */
+  }
+
+  ul {
+    opacity: 0;
+  }
+
+  .li1 {
+    display: inline-block;
+    margin-left: 80px;
+    color: white;
+    font-size: 17px;
+    opacity: 0.6;
+    /* padding: 20px; */
+  }
+
+  .li1 a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(95, 3, 244);
+  }
+
+  .homee a {
+    background-color: white;
+    color: rgb(95, 3, 244);
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+
+  .li1 a:hover .homee {
+    color: white;
+    padding: 0px;
+    border-radius: 0px;
+  }
+
+  header ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+
+  .sel {
+    width: 120px;
+    height: 30px;
+    margin: 48px 0px 0px 20px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 71, 71);
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) {
+  .header {
+
+    width: 100%;
+    height: 150px;
+    background-color: #00000008;
+    /* display: flex; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border:3px solid rgb(250, 2, 2) ; */
+    /* background-attachment:fixed; */
+    z-index: 250;
+  }
+
+  .logo {
+    width: 200px;
+    height: 130px;
+
+    margin-left: 15px;
+    /* border: 1px solid brown; */
+  }
+
+  ul {
+    opacity: 0;
+  }
+
+  .sel {
+    width: 260px;
+    height: 50px;
+    margin: 35px 0px 0px 45px;
+    display: block;
+    font-size: 25px;
+    color: rgb(158, 52, 52);
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) {
+  .header {
+
+    width: 100%;
+    height: 150px;
+    background-color: #00000008;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border:3px solid rgb(204, 200, 200) ; */
+    /* background-attachment:fixed; */
+    z-index: 250;
+  }
+
+  .logo {
+    width: 100px;
+    height: 150px;
+
+    margin-left: 30px;
+
+  }
+
+  ul {
+    list-style-type: none;
+    opacity: 0.8;
+    margin-right: 50px;
+    margin-top: 70px;
+  }
+
+  .li1 {
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+    opacity: 0.6;
+    /* padding: 20px; */
+  }
+
+  .li1 a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(95, 3, 244);
+  }
+
+  .homee a {
+    background-color: white;
+    color: rgb(95, 3, 244);
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+
+  .li1 a:hover .homee {
+    color: white;
+    padding: 0px;
+    border-radius: 0px;
+  }
+
+  header ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+
+  .sel {
+    width: 260px;
+    height: 50px;
+    margin: 35px 0px 0px 45px;
+    display: none;
+    font-size: 25px;
+    color: rgb(158, 52, 52);
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 991.98px) {
+  .header {
+
+    width: 100%;
+    height: 150px;
+    background-color: #00000008;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border:3px solid rgb(67, 242, 3) ; */
+    /* background-attachment:fixed; */
+    z-index: 250;
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+
+    margin-left: 40px;
+
+  }
+
+  ul {
+    list-style-type: none;
+
+    margin-right: 70px;
+    margin-top: 70px;
+  }
+
+  .li1 {
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    opacity: 0.6;
+    /* padding: 20px; */
+  }
+
+  .li1 a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(95, 3, 244);
+  }
+
+  .homee a {
+    background-color: white;
+    color: rgb(95, 3, 244);
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+
+  .li1 a:hover .homee {
+    color: white;
+    padding: 0px;
+    border-radius: 0px;
+  }
+
+  header ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) {
+  .header {
+
+    width: 100%;
+    height: 150px;
+    background-color: #00000008;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border:3px solid rgb(255, 2, 2) ; */
+    /* background-attachment:fixed; */
+    z-index: 250;
+  }
+
+  .logo {
+    width: 180px;
+    height: 150px;
+
+    margin-left: 60px;
+
+  }
+
+  ul {
+    list-style-type: none;
+
+    margin-right: 90px;
+    margin-top: 70px;
+  }
+
+  .li1 {
+    display: inline-block;
+    margin-left: 30px;
+    color: white;
+    font-size: 22px;
+    opacity: 0.6;
+    /* padding: 20px; */
+  }
+
+  .li1 a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(95, 3, 244);
+  }
+
+  .homee a {
+    background-color: white;
+    color: rgb(95, 3, 244);
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+
+  .li1 a:hover .homee {
+    color: white;
+    padding: 0px;
+    border-radius: 0px;
+  }
+
+  header ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width:1399.98px) {
+  .header {
+
+    width: 100%;
+    height: 150px;
+    background-color: #00000008;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border:3px solid rgb(208, 167, 167) ; */
+    /* background-attachment:fixed; */
+    z-index: 250;
+  }
+
+  .logo {
+    width: 200px;
+    height: 150px;
+
+    margin-left: 100px;
+
+  }
+
+  ul {
+    list-style-type: none;
+
+    margin-right: 150px;
+    margin-top: 65px;
+  }
+
+  .li1 {
+    display: inline-block;
+    margin-left: 80px;
+    color: white;
+    font-size: 20px;
+    opacity: 0.6;
+    /* padding: 20px; */
+  }
+
+  .li1 a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(95, 3, 244);
+  }
+
+  .homee a {
+    background-color: white;
+    color: rgb(95, 3, 244);
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+
+  .li1 a:hover .homee {
+    color: white;
+    padding: 0px;
+    border-radius: 0px;
+  }
+
+  header ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+}
+
+/* ///////////////////////////////////////////// */
+.background {
+  overflow: hidden;
+}
+
+.bg1 {
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  opacity: 0;
+  transition: opacity 4s;
+}
+
+.bgm1 {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+#bgm1-logo {
+  width: 60%;
+  height: 90%;
+  margin: -50px 0px 0px 350px;
+  z-index: 4;
+  opacity: 0.6;
+  position: absolute;
+  transition: 2s;
+
+  animation-name: logo1Tra;
+  animation-duration: 2s;
+  animation-delay: .1s;
+  animation-play-state: paused;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes logo1Tra {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    z-index: 5;
+    opacity: .2;
+    margin-left: 35%;
+    margin-top: 5%;
+    width: 30%;
+    height: 60%;
+  }
+}
+
+#bgm1-moon {
+  width: 10%;
+  height: 20%;
+  margin-top: 8%;
+  margin-left: 62.04%;
+  scale: (1.1);
+  z-index: 3;
+  opacity: 1;
+  position: absolute;
+  transition: 3s;
+
+  animation-name: moonTr2, moonTr3, moonTr4, moonTr5;
+  animation-duration: 3s, 1s, 1s, 1s;
+  animation-delay: .5s, .1s, .1s, .1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-play-state: paused, paused, paused, paused;
+}
+
+@keyframes moonTr2 {
+  0% {
+    transform: translate(11px, -5px);
+  }
+
+  100% {
+    transform: translate(51px, 301px) scale(3.5) rotate(540deg);
+  }
+
+}
+
+@keyframes moonTr3 {
+  0% {
+    transform: translate(51px, 301px) scale(2.8);
+  }
+
+  100% {
+    transform: translate(-700px, 180px) scale(3.5) rotate(-360deg);
+  }
+
+}
+
+@keyframes moonTr4 {
+  0% {
+    transform: translate(-700px, 180px) scale(3.1);
+  }
+
+  100% {
+    transform: translate(-500px, 500px) scale(2.1) rotate(540deg);
+  }
+}
+
+@keyframes moonTr5 {
+  0% {
+    transform: translate(-500px, 500px) scale(2.1);
+  }
+
+  100% {
+    transform: translate(-250px, 180px) scale(3.3) rotate(250deg);
+  }
+}
+
+.bgm1-text {
+  width: 45%;
+  height: 20%;
+  margin: 400px 450px;
+  text-align: center;
+  z-index: 2;
+  color: white;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 30px;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
+.bgm2 {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+#bgm2-logo {
+  width: 65%;
+  height: 85%;
+  margin: 5% 20%;
+  z-index: 2;
+  opacity: 0;
+  position: absolute;
+  transition: 2s;
+}
+
+#bgm2-text {
+  width: 25%;
+  height: 25%;
+  margin: 31% 21%;
+  text-align: center;
+  z-index: 4;
+  color: white;
+  opacity: 0.6;
+  position: absolute;
+  font-size: 34px;
+}
+
+.bgm3 {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0;
+  position: absolute;
+  transition: 2s;
+}
+
+#bgm3-plant1 {
+  position: absolute;
+  width: 25%;
+  height: 60%;
+  bottom: -50%;
+  margin: 24% 75% 5% 44%;
+  z-index: 3;
+  position: absolute;
+  transition: 2s;
+  animation-name: bgm3_plant1;
+  animation-duration: 1s;
+  animation-delay: .1s;
+  animation-play-state: paused;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bgm3_plant1 {
+  0% {
+    bottom: -50%;
+  }
+
+  100% {
+    bottom: -15%;
+    margin: 24% 75% 5% 44%;
+
+  }
+}
+
+
+#bgm3-plant2 {
+  width: 25%;
+  height: 60%;
+  left: 50%;
+
+  margin: 22% 70% 0% 50%;
+  z-index: 3;
+  position: absolute;
+  transition: 2s;
+  animation-name: bgm3_plant2;
+  animation-duration: 1s;
+  animation-delay: .1s;
+  animation-play-state: paused;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bgm3_plant2 {
+  0% {
+    left: 50%;
+  }
+
+  100% {
+    left: 6%;
+    margin: 22% 70% 0% 50%;
+
+  }
+}
+
+#bgm3-h2 {
+  width: 50%;
+  height: 20%;
+  margin: 27% 37%;
+  text-align: center;
+  z-index: 4;
+  color: white;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 35px;
+}
+
+#bgm4-h2 {
+  width: 55%;
+  height: 20%;
+  margin: 33% 25%;
+  text-align: center;
+  z-index: 4;
+  color: white;
+  opacity: 0.6;
+  position: absolute;
+  font-size: 32px;
+  transition: 2s;
+}
+
+#bgm4-suit12 {
+  width: 15%;
+  height: 60%;
+  margin: 6% 70% 5% 28%;
+  z-index: 4;
+  position: absolute;
+  transition: 2s;
+  opacity: 0;
+}
+
+#bgm4-suit13 {
+  width: 15%;
+  height: 60%;
+  margin: 6% 70% 5% 44%;
+  z-index: 4;
+  position: absolute;
+  transition: 2s;
+  opacity: 0;
+}
+
+#bgm4-suit2 {
+  width: 25%;
+  height: 65%;
+  margin: 3.5% 70% 0% 55%;
+  z-index: 4;
+  position: absolute;
+  transition: 2s;
+  opacity: 0;
+}
+
+.btn1 {
+  width: 7%;
+  height: 5%;
+  margin: 27% 46.5%;
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+}
+
+.back {
+  width: 10%;
+  height: 5%;
+  margin: 45% 12%;
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.next {
+  width: 10%;
+  height: 5%;
+  margin: 45% 82%;
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.footer {
+  width: 50%;
+  height: 150px;
+  position: absolute;
+  z-index: 100;
+  margin: 40% auto;
+  margin-left: 25%;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  background-color: rgba(22, 101, 247, 0);
+}
+
+.footer-h {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+.footer-icons ul {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  font-size: 50px;
+}
+
+.footer ul li {
+  display: inline;
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 100px;
+  height: 50px;
+}
+
+.footer-icons {
+  width: 30%;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 35%;
+}
+
+.footer-icons .fabb1 {
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.footer-icons .fabb2 {
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  font-size: 30px
+}
+
+.fabb3 {
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+/* /////////////////////////-media-////////////////////////// */
+
+/* X-Small devices (portrait phones, less than 320px) */
+@media (min-width: 320px) { 
+  .background{
+    overflow: hidden;
+  }
+  
+  .bg1{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo{
+    width: 100%;
+    height: 45%;
+    margin: 110px  0px  0px   0px ;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+    
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes logo1Tra{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: .2;
+        margin-left: 4%;
+        margin-top: 50%;
+        width: 90%;
+        height: 50%;
+    }
+  }
+  
+  #bgm1-moon{
+    width: 100px;
+    height: 100px;
+    margin-left: 55.04% ;
+    margin-top: 150px;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+    animation-duration: 1s,1s,1s;
+    animation-delay: .1s,.1s,.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused,paused,paused ;
+  }
+  
+  @keyframes moonTr2{
+    0%{
+      transform: translate(11px, -5px)  ;
+    }
+    100%{
+      transform: translate(25px, 180px) scale(1.5) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3{
+    0%{
+      transform: translate(25px, 180px) scale(1.5) ;
+    }
+    100%{
+      transform: translate(-150px, 60px) scale(1.6) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0%{
+      transform: translate(-150px, 60px) scale(1.6) ;
+    }
+    100%{
+      transform: translate(-130px, 350px) scale(1.8) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0%{
+      transform: translate(-130px, 350px) scale(1.8) ;
+    }
+    100%{
+      transform: translate(-70px, 170px) scale(2.6) rotate(250deg) ;
+    }
+  }
+  
+  .bgm1-text{
+    width: 80%;
+    height: 20%;
+    margin: 400px   30px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo{
+    width: 650px;
+    height: 50%;
+    /* margin: 45%  5% ; */
+    top: 15%;
+    right: -55%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text{
+    width: 70%;
+    height: 25%;
+    /* margin: 85%   15%; */
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    font-size: 17px;
+  }
+  
+  .bgm3{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1{
+    width: 240px;
+    height: 325px;
+    bottom: -50%;
+    margin: 24%  75% 5% 44% ;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant1;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  @keyframes bgm3_plant1 {
+    0%{
+      bottom: -50%;
+    }
+    100%{
+      bottom: 12%;
+      margin: 24%  75% 5% -5% ;
+  
+    }
+  }
+    
+  
+  #bgm3-plant2{
+    width: 240px;
+    height: 325px;
+    left: 50%;
+  
+    margin: 22%  70% 0% 50% ;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  } 
+  
+  @keyframes bgm3_plant2 {
+    0%{
+      left: 50%;
+    }
+    100%{
+      left: -21%;
+      margin: 100%  70% 0% 53% ;
+  
+    }
+  }
+  
+  #bgm3-h2{
+    width: 80%;
+    height: 20%;
+    margin: 110%  10%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  #bgm4-h2{
+    width: 75%;
+    height: 10%;
+    margin: 130%  15%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 17px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12{
+    width: 100px;
+    height: 300px;
+    margin: 30%  70% 5% 1% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit13{
+    width: 100px;
+    height: 300px;
+    margin: 30%  70% 5% 33% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit2{
+    width: 100px;
+    height: 300px;
+    margin: 30%  70% 0% 55% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1{
+    width: 25%;
+    height: 5%;
+    margin: 120%  35%;
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+  }
+  
+  .back{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -5%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -5%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer{
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 190% 35%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h{
+    font-size: 17px;
+    color: white;
+    margin-left: -10px ;
+  }
+  
+  .footer-icons ul{
+    width: 100%;
+    height: 90%;
+    margin:auto;
+    display: flex;
+    font-size: 15px;
+    opacity: 1;
+  }
+  
+  .footer ul li{
+    display: inline;
+    margin-left: -10px;
+    margin-top: -5px;
+    width: 151px;
+    /* height:250px; */
+  }
+  
+  .footer-icons{
+    width: 80%;
+    height: 104px ;
+    margin-top: 44px;
+    margin-left: 5%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  .footer-icons .fabb2{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  .fabb3{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+ }
+
+/* X-Small devices (portrait phones, less than 360px) */
+@media (min-width: 360px) { 
+  .background{
+    overflow: hidden;
+  }
+  
+  .bg1{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo{
+    width: 100%;
+    height: 45%;
+    margin: 110px  0px  0px   0px ;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+    
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes logo1Tra{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: .2;
+        margin-left: 4%;
+        margin-top: 47%;
+        width: 90%;
+        height: 50%;
+    }
+  }
+  
+  #bgm1-moon{
+    width: 100px;
+    height: 100px;
+    margin-left: 55.04% ;
+    margin-top: 150px;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+    animation-duration: 1s,1s,1s;
+    animation-delay: .1s,.1s,.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused,paused,paused ;
+  }
+  
+  @keyframes moonTr2{
+    0%{
+      transform: translate(11px, -5px)  ;
+    }
+    100%{
+      transform: translate(25px, 180px) scale(1.5) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3{
+    0%{
+      transform: translate(25px, 180px) scale(1.5) ;
+    }
+    100%{
+      transform: translate(-150px, 60px) scale(1.8) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0%{
+      transform: translate(-150px, 60px) scale(1.8) ;
+    }
+    100%{
+      transform: translate(-130px, 350px) scale(2) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0%{
+      transform: translate(-130px, 350px) scale(2) ;
+    }
+    100%{
+      transform: translate(-70px, 170px) scale(2.8) rotate(250deg) ;
+    }
+  }
+  
+  .bgm1-text{
+    width: 80%;
+    height: 20%;
+    margin: 400px   30px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo{
+    width: 650px;
+    height: 50%;
+    /* margin: 45%  5% ; */
+    top: 15%;
+    right: -55%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text{
+    width: 70%;
+    height: 25%;
+    /* margin: 85%   15%; */
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    font-size: 17px;
+  }
+  
+  .bgm3{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1{
+    width: 260px;
+    height: 320px;
+    bottom: -50%;
+    /* margin: 24%  75% 5% 44% ; */
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant1;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  @keyframes bgm3_plant1 {
+    0%{
+      bottom: -50%;
+    }
+    100%{
+      bottom: 12%;
+      margin: 25%  75% 5% -5% ;
+  
+    }
+  }
+    
+  
+  #bgm3-plant2{
+    width: 260px;
+    height: 320px;
+    left: 50%;
+  
+    /* margin: 22%  70% 0% 50% ; */
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  } 
+  
+  @keyframes bgm3_plant2 {
+    0%{
+      left: 50%;
+    }
+    100%{
+      left: -21%;
+      margin: 90%  70% 0% 53% ;
+  
+    }
+  }
+  
+  #bgm3-h2{
+    width: 80%;
+    height: 20%;
+    margin: 110%  10%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  #bgm4-h2{
+    width: 75%;
+    height: 10%;
+    margin: 110%  15%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 17px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12{
+    width: 100px;
+    height: 300px;
+    margin: 30%  70% 5% 1% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit13{
+    width: 100px;
+    height: 300px;
+    margin: 30%  70% 5% 33% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit2{
+    width: 100px;
+    height: 300px;
+    margin: 30%  70% 0% 55% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1{
+    width: 25%;
+    height: 5%;
+    margin: 120%  35%;
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+  }
+  
+  .back{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -10%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -10%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer{
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 170% 35%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h{
+    font-size: 10px;
+    color: white;
+  }
+  
+  .footer-icons ul{
+    width: 80%;
+    height: 80%;
+    margin:auto;
+    display: flex;
+    font-size: 15px;
+  }
+  
+  .footer ul li{
+    display: inline;
+    margin-left: 12px;
+    margin-top: 5px;
+    width: 100px;
+    height:50px;
+  }
+  
+  .footer-icons{
+    width: 30%;
+    height: 70px ;
+    margin-top: 20px;
+    margin-left: 22%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+  
+  .footer-icons .fabb2{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+  
+  .fabb3{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+ }
+
+ /* X-Small devices (portrait phones, less than 375px) */
+@media (min-width: 375px) { 
+  .background{
+    overflow: hidden;
+  }
+  
+  .bg1{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo{
+    width: 100%;
+    height: 45%;
+    margin: 110px  0px  0px   0px ;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+    
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes logo1Tra{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: .2;
+        margin-left: 4%;
+        margin-top: 45%;
+        width: 90%;
+        height: 50%;
+    }
+  }
+  
+  #bgm1-moon{
+    width: 100px;
+    height: 100px;
+    margin-left: 55.04% ;
+    margin-top: 150px;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+    animation-duration: 1s,1s,1s;
+    animation-delay: .1s,.1s,.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused,paused,paused ;
+  }
+  
+  @keyframes moonTr2{
+    0%{
+      transform: translate(11px, -5px)  ;
+    }
+    100%{
+      transform: translate(25px, 180px) scale(1.5) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3{
+    0%{
+      transform: translate(25px, 180px) scale(1.5) ;
+    }
+    100%{
+      transform: translate(-150px, 60px) scale(1.8) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0%{
+      transform: translate(-150px, 60px) scale(1.8) ;
+    }
+    100%{
+      transform: translate(-130px, 350px) scale(2) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0%{
+      transform: translate(-130px, 350px) scale(2) ;
+    }
+    100%{
+      transform: translate(-70px, 170px) scale(2.8) rotate(250deg) ;
+    }
+  }
+  
+  .bgm1-text{
+    width: 80%;
+    height: 20%;
+    margin: 400px   30px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo{
+    width: 650px;
+    height: 50%;
+    /* margin: 45%  5% ; */
+    top: 15%;
+    right: -55%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text{
+    width: 70%;
+    height: 25%;
+    /* margin: 85%   15%; */
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    font-size: 17px;
+  }
+  
+  .bgm3{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1{
+    width: 260px;
+    height: 320px;
+    bottom: -50%;
+    /* margin: 24%  75% 5% 44% ; */
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant1;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  @keyframes bgm3_plant1 {
+    0%{
+      bottom: -50%;
+    }
+    100%{
+      bottom: 10%;
+      margin: 25%  75% 5% -5% ;
+  
+    }
+  }
+    
+  
+  #bgm3-plant2{
+    width: 260px;
+    height: 320px;
+    left: 50%;
+  
+    /* margin: 22%  70% 0% 50% ; */
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  } 
+  
+  @keyframes bgm3_plant2 {
+    0%{
+      left: 50%;
+    }
+    100%{
+      left: -21%;
+      margin: 90%  70% 0% 53% ;
+  
+    }
+  }
+  
+  #bgm3-h2{
+    width: 80%;
+    height: 20%;
+    margin: 110%  10%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  #bgm4-h2{
+    width: 75%;
+    height: 10%;
+    margin: 110%  15%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 17px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12{
+    width: 100px;
+    height: 300px;
+    margin: 30%  70% 5% 1% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit13{
+    width: 100px;
+    height: 300px;
+    margin: 30%  70% 5% 33% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit2{
+    width: 100px;
+    height: 300px;
+    margin: 30%  70% 0% 55% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1{
+    width: 25%;
+    height: 5%;
+    margin: 110%  35%;
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+  }
+  
+  .back{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -10%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -10%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer{
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 170% 35%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h{
+    font-size: 10px;
+    color: white;
+  }
+  
+  .footer-icons ul{
+    width: 80%;
+    height: 80%;
+    margin:auto;
+    display: flex;
+    font-size: 15px;
+  }
+  
+  .footer ul li{
+    display: inline;
+    margin-left: 12px;
+    margin-top: 5px;
+    width: 100px;
+    height:50px;
+  }
+  
+  .footer-icons{
+    width: 30%;
+    height: 70px ;
+    margin-top: 20px;
+    margin-left: 22%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+  
+  .footer-icons .fabb2{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+  
+  .fabb3{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+ }
+
+/* X-Small devices (portrait phones, less than 400px) */
+@media (min-width: 400px) { 
+  .background{
+    overflow: hidden;
+  }
+  
+  .bg1{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo{
+    width: 100%;
+    height: 45%;
+    margin: 110px  0px  0px   0px ;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+    
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes logo1Tra{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: .2;
+        margin-left: 6%;
+        margin-top: 40%;
+        width: 85%;
+        height: 50%;
+    }
+  }
+  
+  #bgm1-moon{
+    width: 100px;
+    height: 100px;
+    margin-left: 55.04% ;
+    margin-top: 150px;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+    animation-duration: 1s,1s,1s;
+    animation-delay: .1s,.1s,.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused,paused,paused ;
+  }
+  
+  @keyframes moonTr2{
+    0%{
+      transform: translate(11px, -5px)  ;
+    }
+    100%{
+      transform: translate(25px, 180px) scale(1.5) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3{
+    0%{
+      transform: translate(25px, 180px) scale(1.5) ;
+    }
+    100%{
+      transform: translate(-150px, 60px) scale(1.6) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0%{
+      transform: translate(-150px, 60px) scale(1.6) ;
+    }
+    100%{
+      transform: translate(-150px, 400px) scale(1.9) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0%{
+      transform: translate(-150px, 400px) scale(1.9) ;
+    }
+    100%{
+      transform: translate(-70px, 170px) scale(2.7) rotate(250deg) ;
+    }
+  }
+  
+  .bgm1-text{
+    width: 80%;
+    height: 20%;
+    margin: 400px   30px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo{
+    width: 650px;
+    height: 50%;
+    /* margin: 45%  5% ; */
+    top: 15%;
+    right: -55%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text{
+    width: 70%;
+    height: 25%;
+    /* margin: 85%   15%; */
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    font-size: 17px;
+  }
+  
+  .bgm3{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1{
+    width: 300px;
+    height: 325px;
+    bottom: -50%;
+    margin: 24%  75% 5% 44% ;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant1;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  @keyframes bgm3_plant1 {
+    0%{
+      bottom: -50%;
+    }
+    100%{
+      bottom: 12%;
+      margin: 24%  75% 5% -5% ;
+  
+    }
+  }
+    
+  
+  #bgm3-plant2{
+    width: 300px;
+    height: 325px;
+    left: 50%;
+  
+    margin: 22%  70% 0% 50% ;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  } 
+  
+  @keyframes bgm3_plant2 {
+    0%{
+      left: 50%;
+    }
+    100%{
+      left: -21%;
+      margin: 78%  70% 0% 53% ;
+  
+    }
+  }
+  
+  #bgm3-h2{
+    width: 80%;
+    height: 20%;
+    margin: 90%  10%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 22px;
+  }
+  
+  #bgm4-h2{
+    width: 75%;
+    height: 10%;
+    margin: 110%  15%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 17px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12{
+    width: 150px;
+    height: 325px;
+    margin: 30%  70% 5% 1% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit13{
+    width: 150px;
+    height: 325px;
+    margin: 30%  70% 5% 37% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit2{
+    width: 150px;
+    height: 325px;
+    margin: 30%  70% 0% 58% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1{
+    width: 20%;
+    height: 4%;
+    margin: 100%  40%;
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+  }
+  
+  .back{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -15%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -15%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer{
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 150% 35%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h{
+    font-size: 17px;
+    color: white;
+    margin-left: -10px ;
+  }
+  
+  .footer-icons ul{
+    width: 100%;
+    height: 90%;
+    margin:auto;
+    display: flex;
+    font-size: 15px;
+    opacity: 1;
+  }
+  
+  .footer ul li{
+    display: inline;
+    margin-left: -10px;
+    margin-top: -5px;
+    width: 151px;
+    /* height:250px; */
+  }
+  
+  .footer-icons{
+    width: 80%;
+    height: 104px ;
+    margin-top: 44px;
+    margin-left: 5%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+  
+  .footer-icons .fabb2{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+  
+  .fabb3{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+ }
+
+ /* X-Small devices (portrait phones, less than 414px) */
+@media (min-width: 414px) { 
+  .background{
+    overflow: hidden;
+  }
+  
+  .bg1{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo{
+    width: 100%;
+    height: 45%;
+    margin: 110px  0px  0px   0px ;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+    
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes logo1Tra{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: .2;
+        margin-left: 6%;
+        margin-top: 40%;
+        width: 85%;
+        height: 50%;
+    }
+  }
+  
+  #bgm1-moon{
+    width: 100px;
+    height: 100px;
+    margin-left: 55.04% ;
+    margin-top: 150px;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+    animation-duration: 1s,1s,1s;
+    animation-delay: .1s,.1s,.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused,paused,paused ;
+  }
+  
+  @keyframes moonTr2{
+    0%{
+      transform: translate(11px, -5px)  ;
+    }
+    100%{
+      transform: translate(25px, 180px) scale(1.5) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3{
+    0%{
+      transform: translate(25px, 180px) scale(1.5) ;
+    }
+    100%{
+      transform: translate(-150px, 60px) scale(1.6) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0%{
+      transform: translate(-150px, 60px) scale(1.6) ;
+    }
+    100%{
+      transform: translate(-150px, 400px) scale(1.9) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0%{
+      transform: translate(-150px, 400px) scale(1.9) ;
+    }
+    100%{
+      transform: translate(-70px, 170px) scale(2.7) rotate(250deg) ;
+    }
+  }
+  
+  .bgm1-text{
+    width: 80%;
+    height: 20%;
+    margin: 400px   30px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo{
+    width: 650px;
+    height: 50%;
+    /* margin: 45%  5% ; */
+    top: 15%;
+    right: -55%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text{
+    width: 70%;
+    height: 25%;
+    /* margin: 85%   15%; */
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    font-size: 17px;
+  }
+  
+  .bgm3{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1{
+    width: 300px;
+    height: 325px;
+    bottom: -50%;
+    margin: 24%  75% 5% 44% ;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant1;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  @keyframes bgm3_plant1 {
+    0%{
+      bottom: -50%;
+    }
+    100%{
+      bottom: 11%;
+      margin: 24%  75% 5% -5% ;
+  
+    }
+  }
+    
+  
+  #bgm3-plant2{
+    width: 300px;
+    height: 325px;
+    left: 50%;
+  
+    margin: 22%  70% 0% 50% ;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  } 
+  
+  @keyframes bgm3_plant2 {
+    0%{
+      left: 50%;
+    }
+    100%{
+      left: -21%;
+      margin: 78%  70% 0% 53% ;
+  
+    }
+  }
+  
+  #bgm3-h2{
+    width: 80%;
+    height: 20%;
+    margin: 90%  10%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 22px;
+  }
+  
+  #bgm4-h2{
+    width: 75%;
+    height: 10%;
+    margin: 110%  15%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 17px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12{
+    width: 150px;
+    height: 325px;
+    margin: 30%  70% 5% 1% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit13{
+    width: 150px;
+    height: 325px;
+    margin: 30%  70% 5% 37% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit2{
+    width: 150px;
+    height: 325px;
+    margin: 30%  70% 0% 58% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1{
+    width: 20%;
+    height: 4%;
+    margin: 100%  40%;
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+  }
+  
+  .back{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -15%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -15%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer{
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 150% 35%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h{
+    font-size: 17px;
+    color: white;
+    margin-left: -10px ;
+  }
+  
+  .footer-icons ul{
+    width: 100%;
+    height: 90%;
+    margin:auto;
+    display: flex;
+    font-size: 15px;
+    opacity: 1;
+  }
+  
+  .footer ul li{
+    display: inline;
+    margin-left: -10px;
+    margin-top: -5px;
+    width: 151px;
+    /* height:250px; */
+  }
+  
+  .footer-icons{
+    width: 80%;
+    height: 104px ;
+    margin-top: 44px;
+    margin-left: 5%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+  
+  .footer-icons .fabb2{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+  
+  .fabb3{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+ }
+
+  /* X-Small devices (portrait phones, less than 480px) */
+@media (min-width: 480px) { 
+  .background{
+    overflow: hidden;
+  }
+  
+  .bg1{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo{
+    width: 100%;
+    height: 45%;
+    margin: 110px  0px  0px   0px ;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+    
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes logo1Tra{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: .2;
+        margin-left: 6%;
+        margin-top: 40%;
+        width: 85%;
+        height: 50%;
+    }
+  }
+  
+  #bgm1-moon{
+    width: 100px;
+    height: 100px;
+    margin-left: 55.04% ;
+    margin-top: 150px;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+    animation-duration: 1s,1s,1s;
+    animation-delay: .1s,.1s,.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused,paused,paused ;
+  }
+  
+  @keyframes moonTr2{
+    0%{
+      transform: translate(11px, -5px)  ;
+    }
+    100%{
+      transform: translate(25px, 180px) scale(1.5) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3{
+    0%{
+      transform: translate(25px, 180px) scale(1.5) ;
+    }
+    100%{
+      transform: translate(-150px, 60px) scale(1.6) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0%{
+      transform: translate(-150px, 60px) scale(1.6) ;
+    }
+    100%{
+      transform: translate(-150px, 400px) scale(1.9) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0%{
+      transform: translate(-150px, 400px) scale(1.9) ;
+    }
+    100%{
+      transform: translate(-70px, 170px) scale(2.7) rotate(250deg) ;
+    }
+  }
+  
+  .bgm1-text{
+    width: 80%;
+    height: 20%;
+    margin: 400px   30px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo{
+    width: 650px;
+    height: 50%;
+    /* margin: 45%  5% ; */
+    top: 15%;
+    right: -55%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text{
+    width: 70%;
+    height: 25%;
+    /* margin: 85%   15%; */
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    font-size: 17px;
+  }
+  
+  .bgm3{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1{
+    width: 300px;
+    height: 325px;
+    bottom: -50%;
+    margin: 24%  75% 5% 44% ;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant1;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  @keyframes bgm3_plant1 {
+    0%{
+      bottom: -50%;
+    }
+    100%{
+      bottom: 11%;
+      margin: 24%  75% 5% -5% ;
+  
+    }
+  }
+    
+  
+  #bgm3-plant2{
+    width: 300px;
+    height: 325px;
+    left: 50%;
+  
+    margin: 22%  70% 0% 50% ;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  } 
+  
+  @keyframes bgm3_plant2 {
+    0%{
+      left: 50%;
+    }
+    100%{
+      left: -21%;
+      margin: 78%  70% 0% 53% ;
+  
+    }
+  }
+  
+  #bgm3-h2{
+    width: 80%;
+    height: 20%;
+    margin: 90%  10%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 22px;
+  }
+  
+  #bgm4-h2{
+    width: 75%;
+    height: 10%;
+    margin: 110%  15%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 17px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12{
+    width: 150px;
+    height: 325px;
+    margin: 30%  70% 5% 1% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit13{
+    width: 150px;
+    height: 325px;
+    margin: 30%  70% 5% 37% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit2{
+    width: 150px;
+    height: 325px;
+    margin: 30%  70% 0% 58% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1{
+    width: 20%;
+    height: 4%;
+    margin: 100%  40%;
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+  }
+  
+  .back{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -15%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -15%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer{
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 150% 35%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h{
+    font-size: 17px;
+    color: white;
+    margin-left: -10px ;
+  }
+  
+  .footer-icons ul{
+    width: 100%;
+    height: 90%;
+    margin:auto;
+    display: flex;
+    font-size: 15px;
+    opacity: 1;
+  }
+  
+  .footer ul li{
+    display: inline;
+    margin-left: -10px;
+    margin-top: -5px;
+    width: 151px;
+    /* height:250px; */
+  }
+  
+  .footer-icons{
+    width: 80%;
+    height: 104px ;
+    margin-top: 44px;
+    margin-left: 5%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+  
+  .footer-icons .fabb2{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+  
+  .fabb3{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+ }
+
+  /* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) { 
+  .background{
+    overflow: hidden;
+  }
+  
+  .bg1{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo{
+    width: 100%;
+    height: 45%;
+    margin: 110px  0px  0px   0px ;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+    
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes logo1Tra{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: .2;
+        margin-left: 13%;
+        margin-top: 20%;
+        width: 75%;
+        height: 50%;
+    }
+  }
+  
+  #bgm1-moon{
+    width: 100px;
+    height: 100px;
+    margin-left: 55.04% ;
+    margin-top: 150px;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+    animation-duration: 1s,1s,1s;
+    animation-delay: .1s,.1s,.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused,paused,paused ;
+  }
+  
+  @keyframes moonTr2{
+    0%{
+      transform: translate(11px, -5px)  ;
+    }
+    100%{
+      transform: translate(20px, 220px) scale(2) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3{
+    0%{
+      transform: translate(20px, 220px) scale(2) ;
+    }
+    100%{
+      transform: translate(-150px, 60px) scale(2.5) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0%{
+      transform: translate(-150px, 60px) scale(2.5) ;
+    }
+    100%{
+      transform: translate(-180px, 350px) scale(2.8) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0%{
+      transform: translate(-180px, 350px) scale(2.8) ;
+    }
+    100%{
+      transform: translate(-70px, 170px) scale(4) rotate(250deg) ;
+    }
+  }
+  
+  .bgm1-text{
+    width: 80%;
+    height: 20%;
+    margin: 400px   50px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo{
+    width: 700px;
+    height: 60%;
+    /* margin: 45%  5% ; */
+    top: 12%;
+    right: -30%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text{
+    width: 70%;
+    height: 25%;
+    /* margin: 85%   15%; */
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    font-size: 17px;
+  }
+  
+  .bgm3{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1{
+    width: 300px;
+    height: 325px;
+    bottom: -50%;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant1;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  @keyframes bgm3_plant1 {
+    0%{
+      bottom: -50%;
+    }
+    100%{
+      bottom: 10%;
+      margin: 24%  75% 5% 10% ;
+    }
+  }
+    
+  #bgm3-plant2{
+    width: 300px;
+    height: 325px;
+    left: 50%;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  } 
+  
+  @keyframes bgm3_plant2 {
+    0%{
+      left: 50%;
+    }
+    100%{
+      left: -17%;
+      margin: 55%  70% 0% 53% ;
+  
+    }
+  }
+  
+  #bgm3-h2{
+    width: 80%;
+    height: 20%;
+    margin: 65%  10%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 22px;
+  }
+  
+  #bgm4-h2{
+    width: 75%;
+    height: 10%;
+    margin: 65%  15%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 19px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12{
+    width: 200px;
+    height: 350px;
+    margin: 13%  70% 5% 1% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit13{
+    width: 200px;
+    height: 350px;
+    margin: 13%  70% 5% 35% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit2{
+    width: 200px;
+    height: 350px;
+    margin: 13%  70% 0% 60% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1{
+    width: 20%;
+    height: 5%;
+    margin: 70%  40%;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+  }
+  
+  .back{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -25%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -25%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer{
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 110% 35%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h{
+    font-size: 14px;
+    color: white;
+  }
+  
+  .footer-icons ul{
+    width: 80%;
+    height: 80%;
+    margin:auto;
+    display: flex;
+    font-size: 15px;
+  }
+  
+  .footer ul li{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 100px;
+    height:50px;
+  }
+  
+  .footer-icons{
+    width: 30%;
+    height: 70px ;
+    margin-top: 20px;
+    margin-left: 25%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  .footer-icons .fabb2{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  .fabb3{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+ }
+
+   /* X-Small devices (portrait phones, less than 600px) */
+@media (min-width: 600px) { 
+  .background{
+    overflow: hidden;
+  }
+  
+  .bg1{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo{
+    width: 100%;
+    height: 45%;
+    margin: 110px  0px  0px   0px ;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+    
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes logo1Tra{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: .2;
+        margin-left: 13%;
+        margin-top: 20%;
+        width: 75%;
+        height: 50%;
+    }
+  }
+  
+  #bgm1-moon{
+    width: 100px;
+    height: 100px;
+    margin-left: 55.04% ;
+    margin-top: 150px;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+    animation-duration: 1s,1s,1s;
+    animation-delay: .1s,.1s,.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused,paused,paused ;
+  }
+  
+  @keyframes moonTr2{
+    0%{
+      transform: translate(11px, -5px)  ;
+    }
+    100%{
+      transform: translate(20px, 220px) scale(2) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3{
+    0%{
+      transform: translate(20px, 220px) scale(2) ;
+    }
+    100%{
+      transform: translate(-150px, 60px) scale(2.5) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0%{
+      transform: translate(-150px, 60px) scale(2.5) ;
+    }
+    100%{
+      transform: translate(-180px, 350px) scale(2.8) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0%{
+      transform: translate(-180px, 350px) scale(2.8) ;
+    }
+    100%{
+      transform: translate(-70px, 170px) scale(4) rotate(250deg) ;
+    }
+  }
+  
+  .bgm1-text{
+    width: 80%;
+    height: 20%;
+    margin: 400px   50px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo{
+    width: 700px;
+    height: 60%;
+    /* margin: 45%  5% ; */
+    top: 12%;
+    right: -30%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text{
+    width: 70%;
+    height: 25%;
+    /* margin: 85%   15%; */
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    font-size: 17px;
+  }
+  
+  .bgm3{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1{
+    width: 300px;
+    height: 325px;
+    bottom: -50%;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant1;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  @keyframes bgm3_plant1 {
+    0%{
+      bottom: -50%;
+    }
+    100%{
+      bottom: 9%;
+      margin: 24%  75% 5% 10% ;
+    }
+  }
+    
+  #bgm3-plant2{
+    width: 300px;
+    height: 325px;
+    left: 50%;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  } 
+  
+  @keyframes bgm3_plant2 {
+    0%{
+      left: 50%;
+    }
+    100%{
+      left: -17%;
+      margin: 55%  70% 0% 53% ;
+  
+    }
+  }
+  
+  #bgm3-h2{
+    width: 80%;
+    height: 20%;
+    margin: 65%  10%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 22px;
+  }
+  
+  #bgm4-h2{
+    width: 75%;
+    height: 10%;
+    margin: 65%  15%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 19px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12{
+    width: 200px;
+    height: 350px;
+    margin: 13%  70% 5% 1% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit13{
+    width: 200px;
+    height: 350px;
+    margin: 13%  70% 5% 35% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit2{
+    width: 200px;
+    height: 350px;
+    margin: 13%  70% 0% 60% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1{
+    width: 20%;
+    height: 5%;
+    margin: 70%  40%;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+  }
+  
+  .back{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -25%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -25%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer{
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 110% 35%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h{
+    font-size: 14px;
+    color: white;
+  }
+  
+  .footer-icons ul{
+    width: 80%;
+    height: 80%;
+    margin:auto;
+    display: flex;
+    font-size: 15px;
+  }
+  
+  .footer ul li{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 100px;
+    height:50px;
+  }
+  
+  .footer-icons{
+    width: 30%;
+    height: 70px ;
+    margin-top: 20px;
+    margin-left: 25%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  .footer-icons .fabb2{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  .fabb3{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (min-width: 767.98px) { 
+  .background{
+    overflow: hidden;
+  }
+  
+  .bg1{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo{
+    width: 100%;
+    height: 45%;
+    margin: 110px  0px  0px   0px ;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+    
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes logo1Tra{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: .2;
+        margin-left: 15%;
+        margin-top: 10%;
+        width: 75%;
+        height: 50%;
+    }
+  }
+  
+  #bgm1-moon{
+    width: 100px;
+    height: 100px;
+    margin-left: 55.04% ;
+    margin-top: 150px;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+    animation-duration: 1s,1s,1s;
+    animation-delay: .1s,.1s,.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused,paused,paused ;
+  }
+  
+  @keyframes moonTr2{
+    0%{
+      transform: translate(11px, -5px)  ;
+    }
+    100%{
+      transform: translate(25px, 235px) scale(3) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3{
+    0%{
+      transform: translate(25px, 235px) scale(3) ;
+    }
+    100%{
+      transform: translate(-250px, 80px) scale(3.5) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0%{
+      transform: translate(-250px, 80px) scale(3.5) ;
+    }
+    100%{
+      transform: translate(-250px, 450px) scale(3.8) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0%{
+      transform: translate(-250px, 450px) scale(3.8) ;
+    }
+    100%{
+      transform: translate(-70px, 170px) scale(4.8) rotate(250deg) ;
+    }
+  }
+  
+  .bgm1-text{
+    width: 80%;
+    height: 20%;
+    margin: 400px   70px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 30px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo{
+    width: 700px;
+    height: 60%;
+    top: 10%;
+    right: -10%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text{
+    width: 50%;
+    height: 25%;
+    /* margin: 85%   15%; */
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    font-size: 25px;
+  }
+  
+  .bgm3{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1{
+    width: 300px;
+    height: 325px;
+    bottom: -50%;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant1;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  @keyframes bgm3_plant1 {
+    0%{
+      bottom: -50%;
+    }
+    100%{
+      bottom: 8%;
+      margin: 24%  75% 5% 30% ;
+    }
+  }
+    
+  #bgm3-plant2{
+    width: 300px;
+    height: 325px;
+    left: 50%;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  } 
+  
+  @keyframes bgm3_plant2 {
+    0%{
+      left: 50%;
+    }
+    100%{
+      left: -10%;
+      margin: 42%  70% 0% 58% ;
+  
+    }
+  }
+  
+  #bgm3-h2{
+    width: 80%;
+    height: 20%;
+    margin: 45%  30%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 25px;
+  }
+  
+  #bgm4-h2{
+    width: 75%;
+    height: 10%;
+    margin: 60%  15%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 22px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12{
+    width: 250px;
+    height: 400px;
+    margin: 13%  70% 5% 7% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit13{
+    width: 250px;
+    height: 400px;
+    margin: 13%  70% 5% 40% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit2{
+    width: 250px;
+    height: 400px;
+    margin: 13%  70% 0% 60% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1{
+    width: 20%;
+    height: 5%;
+    margin: 50%  40%;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+  }
+  
+  .back{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -40%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    bottom: -40%;
+    left: -4%;
+    z-index: 10;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer{
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 80% 35%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+  }
+  
+  .footer-icons ul{
+    width: 80%;
+    height: 80%;
+    margin:auto;
+    display: flex;
+    font-size: 15px;
+  }
+  
+  .footer ul li{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 100px;
+    height:50px;
+  }
+  
+  .footer-icons{
+    width: 30%;
+    height: 70px ;
+    margin-top: 20px;
+    margin-left: 32%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+  
+  .footer-icons .fabb2{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+  
+  .fabb3{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+ }
+
+ /* Medium devices (tablets, less than 992px) */
+ @media (min-width: 991.98px) { 
+    .background{
+      overflow: hidden;
+    }
+    
+    .bg1{
+      top: 0px;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      opacity: 0;
+      transition: opacity 4s;
+    }
+    
+    .bgm1{
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      z-index: -1;
+    }
+    
+    #bgm1-logo{
+      width: 70%;
+      height: 80%;
+      margin: 40px  0px  0px   120px ;
+      z-index: 4;
+      opacity: 0.6;
+      position: absolute;
+      transition: 2s;
+      
+      animation-name: logo1Tra;
+      animation-duration: 2s;
+      animation-delay: .1s;
+      animation-play-state: paused;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards; 
+    }
+    
+    @keyframes logo1Tra{
+      0%{
+        opacity: 0;
+      }
+      100%{
+          z-index: 5;
+          opacity: .2;
+          margin-left: 23%;
+          margin-top: 8%;
+          width: 65%;
+          height: 70%;
+      }
+    }
+    
+    #bgm1-moon{
+      width: 150px;
+      height: 150px;
+      margin-left: 55.04% ;
+      margin-top: 150px;
+      scale: (1.1);
+      z-index: 3;
+      opacity: 1;
+      position: absolute;
+      transition: 3s;
+    
+      animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+      animation-duration: 1s,1s,1s;
+      animation-delay: .1s,.1s,.1s;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards;
+      animation-play-state: paused,paused,paused ;
+    }
+    
+    @keyframes moonTr2{
+      0%{
+        transform: translate(11px, -5px)  ;
+      }
+      100%{
+        transform: translate(80px, 245px) scale(2.8) rotate(540deg);
+      }
+    
+    }
+    
+    @keyframes moonTr3{
+      0%{
+        transform: translate (80px, 245px) scale(2.8) ;
+      }
+      100%{
+        transform: translate(-330px, 120px) scale(3) rotate(-360deg);
+      }
+    
+    }
+    
+    @keyframes moonTr4 {
+      0%{
+        transform: translate(-330px, 120px) scale(3) ;
+      }
+      100%{
+        transform: translate(-350px, 450px) scale(2.6) rotate(540deg);
+      }
+    }
+    
+    @keyframes moonTr5 {
+      0%{
+        transform: translate(-350px, 450px) scale(2.6) ;
+      }
+      100%{
+        transform: translate(-70px, 170px) scale(3.8) rotate(250deg) ;
+      }
+    }
+    
+    .bgm1-text{
+      width: 60%;
+      height: 20%;
+      margin: 450px   150px;
+      text-align: center;
+      z-index: 2;
+      color: white;
+      opacity: 0.5;
+      position: absolute;
+      font-size: 32px;
+    }
+    
+    /* //////////////////////////////////////////////////////////////// */
+    
+    .bgm2{
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+    }
+    
+    #bgm2-logo{
+      width: 900px;
+      height: 80%;
+      top: 8%;
+      right: -15%;
+      z-index: 2;
+      opacity: 0;
+      position: absolute;
+      transition: 2s;
+    }
+    
+    #bgm2-text{
+      width: 40%;
+      height: 25%;
+      text-align: center;
+      z-index: 4;
+      color: white;
+      opacity: 0.6;
+      position: absolute;
+      top: 23%;
+      right: 35%;
+      font-size: 28px;
+    }
+    
+    .bgm3{
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      opacity: 0;
+      position: absolute;
+      transition: 2s;
+    }
+    
+    #bgm3-plant1{
+      width: 300px;
+      height: 325px;
+      bottom: -50%;
+      z-index: 3;
+      position: absolute;
+      transition: 2s;
+      animation-name: bgm3_plant1;
+      animation-duration: 1s;
+      animation-delay: .1s;
+      animation-play-state: paused;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards; 
+    }
+    @keyframes bgm3_plant1 {
+      0%{
+        bottom: -50%;
+      }
+      100%{
+        bottom: 8%;
+        margin: 24%  75% 5% 48% ;
+      }
+    }
+      
+    #bgm3-plant2{
+      width: 300px;
+      height: 325px;
+      left: 50%;
+      z-index: 3;
+      position: absolute;
+      transition: 2s;
+      animation-name: bgm3_plant2;
+      animation-duration: 1s;
+      animation-delay: .1s;
+      animation-play-state: paused;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards; 
+    } 
+    
+    @keyframes bgm3_plant2 {
+      0%{
+        left: 50%;
+      }
+      100%{
+        left: -15%;
+        margin: 32%  70% 0% 78% ;
+    
+      }
+    }
+    
+    #bgm3-h2{
+      width: 80%;
+      height: 20%;
+      margin: 35%  30%;
+      text-align: center;
+      z-index: 4;
+      color: white;
+      opacity: 0.5;
+      position: absolute;
+      font-size: 25px;
+    }
+    
+    #bgm4-h2{
+      width: 75%;
+      height: 10%;
+      margin: 48%  15%;
+      text-align: center;
+      z-index: 4;
+      color: white;
+      opacity: 0.6;
+      position: absolute;
+      font-size: 25px;
+      transition: 2s;
+    }
+    
+    #bgm4-suit12{
+      width: 250px;
+      height: 450px;
+      margin:7%  70% 5% 11% ;
+      z-index: 4;
+      position: absolute;
+      transition: 2s;
+      opacity: 0;
+    }
+    
+    #bgm4-suit13{
+      width: 250px;
+      height: 450px;
+      margin:7%  70% 5% 37% ;
+      z-index: 4;
+      position: absolute;
+      transition: 2s;
+      opacity: 0;
+    }
+    
+    #bgm4-suit2{
+      width: 300px;
+      height: 450px;
+      margin: 7%  70% 0% 60% ;
+      z-index: 4;
+      position: absolute;
+      transition: 2s;
+      opacity: 0;
+    }
+    
+    .btn1{
+      width: 20%;
+      height: 5%;
+      margin: 55%  45%;
+      position: absolute;
+      z-index: 10;
+      font-size: 25px;
+    }
+    
+    .back{
+      width: 13%;
+      height: 3%;
+      position: absolute;
+      bottom: -55%;
+      left: -4%;
+      z-index: 10;
+      font-size: 15px;
+      color: white;
+      background-color: rgba(255, 255, 255, 0);
+    }
+    
+    .next{
+      width: 13%;
+      height: 3%;
+      position: absolute;
+      bottom: -55%;
+      left: -4%;
+      z-index: 10;
+      font-size: 15px;
+      color: white;
+      background-color: rgba(255, 255, 255, 0);
+    }
+    
+    .footer{
+      width: 50%;
+      height: 150px;
+      position: absolute;
+      z-index: 100;
+      margin: 68% 55%;
+      margin-left: 25%;
+      text-align: center;
+      color: black;
+      font-size: 50px;
+      background-color: rgba(22, 101, 247, 0);
+    }
+    
+    .footer-h{
+      text-align: center;
+      font-size: 13px;
+      color: white;
+      margin-left: 15%;
+    }
+    
+    .footer-icons ul{
+      width: 80%;
+      height: 80%;
+      margin:auto;
+      display: flex;
+      font-size: 35px;
+    }
+    
+    .footer ul li{
+      display: inline;
+      margin-left: 20px;
+      margin-top: 5px;
+      width: 100px;
+      height:50px;
+    }
+    
+    .footer-icons{
+      width: 30%;
+      height: 70px ;
+      margin-top: 5px;
+      margin-left: 40%;
+    }
+    
+    .footer-icons .fabb1 {
+      background-color: blue;
+      color: white;
+      border-radius: 50%;
+      font-size: 15px;
+    }
+    
+    .footer-icons .fabb2{
+      background-color: blue;
+      color: white;
+      border-radius: 50%;
+      font-size: 15px;
+    }
+    
+    .fabb3{
+      background-color: blue;
+      color: white;
+      border-radius: 50%;
+      font-size: 15px;
+    }
+   }
+
+    /* Medium devices (tablets, less than 1080px) */
+ @media (min-width: 1080px) { 
+  .background{
+    overflow: hidden;
+  }
+  
+  .bg1{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo{
+    width: 70%;
+    height: 80%;
+    margin: 40px  0px  0px   120px ;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+    
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes logo1Tra{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: .2;
+        margin-left: 25%;
+        margin-top: 4%;
+        width: 60%;
+        height: 70%;
+    }
+  }
+  
+  #bgm1-moon{
+    width: 150px;
+    height: 150px;
+    margin-left: 55.04% ;
+    margin-top: 150px;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+    animation-duration: 1s,1s,1s;
+    animation-delay: .1s,.1s,.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused,paused,paused ;
+  }
+  
+  @keyframes moonTr2{
+    0%{
+      transform: translate(11px, -5px)  ;
+    }
+    100%{
+      transform: translate(110px, 255px) scale(2.8) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3{
+    0%{
+      transform: translate (110px, 255px) scale(2.8) ;
+    }
+    100%{
+      transform: translate(-350px, 120px) scale(3) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0%{
+      transform: translate(-350px, 120px) scale(3) ;
+    }
+    100%{
+      transform: translate(-350px, 480px) scale(2.4) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0%{
+      transform: translate(-350px, 450px) scale(2.4) ;
+    }
+    100%{
+      transform: translate(-70px, 160px) scale(3.4) rotate(250deg) ;
+    }
+  }
+  
+  .bgm1-text{
+    width: 60%;
+    height: 20%;
+    margin: 450px   150px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 32px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo{
+    width: 900px;
+    height: 80%;
+    top: 8%;
+    right: -15%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text{
+    width: 40%;
+    height: 25%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 23%;
+    right: 35%;
+    font-size: 28px;
+  }
+  
+  .bgm3{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1{
+    width: 300px;
+    height: 325px;
+    bottom: -50%;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant1;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  @keyframes bgm3_plant1 {
+    0%{
+      bottom: -50%;
+    }
+    100%{
+      bottom: 8%;
+      margin: 24%  75% 5% 48% ;
+    }
+  }
+    
+  #bgm3-plant2{
+    width: 300px;
+    height: 325px;
+    left: 50%;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  } 
+  
+  @keyframes bgm3_plant2 {
+    0%{
+      left: 50%;
+    }
+    100%{
+      left: -15%;
+      margin: 29%  70% 0% 77% ;
+  
+    }
+  }
+  
+  #bgm3-h2{
+    width: 80%;
+    height: 20%;
+    margin: 33%  30%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 30px;
+  }
+  
+  #bgm4-h2{
+    width: 75%;
+    height: 10%;
+    margin: 46%  15%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 30px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12{
+    width: 250px;
+    height: 450px;
+    margin:7%  70% 5% 11% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit13{
+    width: 250px;
+    height: 450px;
+    margin:7%  70% 5% 37% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit2{
+    width: 300px;
+    height: 450px;
+    margin: 7%  70% 0% 60% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1{
+    width: 13%;
+    height: 5%;
+    margin: 40%  48%;
+    position: absolute;
+    z-index: 10;
+    font-size: 22px;
+  }
+  
+  .back{
+    width: 15%;
+    height: 5%;
+    position: absolute;
+    bottom: -60%;
+    left: -4%;
+    z-index: 10;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next{
+    width: 15%;
+    height: 5%;
+    position: absolute;
+    bottom: -60%;
+    left: -4%;
+    z-index: 10;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer{
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 60% 55%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h{
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    margin-left: 17%;
+  }
+  
+  .footer-icons ul{
+    width: 80%;
+    height: 80%;
+    margin:auto;
+    display: flex;
+    font-size: 35px;
+  }
+  
+  .footer ul li{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 100px;
+    height:50px;
+  }
+  
+  .footer-icons{
+    width: 30%;
+    height: 70px ;
+    margin-top: 5px;
+    margin-left: 40%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  .footer-icons .fabb2{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  .fabb3{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+ }
+
+   /* Large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) { 
+  .background{
+    overflow: hidden;
+  }
+  
+  .bg1{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo{
+    width: 60%;
+    height: 90%;
+    margin: -50px  0px  0px   350px ;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+    
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes logo1Tra{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: .2;
+        margin-left: 35%;
+        margin-top: 5%;
+        width: 30%;
+        height: 60%;
+    }
+  }
+  
+  #bgm1-moon{
+    width: 10%;
+    height: 20%;
+    margin-top: 8%;
+    margin-left: 62.04% ;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2,moonTr3 ,moonTr4,moonTr5;
+    animation-duration: 3s,1s,1s,1s;
+    animation-delay: .5s,.1s,.1s,.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused,paused,paused,paused ;
+  }
+  @keyframes moonTr2{
+    0%{
+      transform: translate(11px, -5px)  ;
+    }
+    100%{
+      transform: translate(51px, 301px) scale(3.5) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3{
+    0%{
+      transform: translate(51px, 301px) scale(2.8) ;
+    }
+    100%{
+      transform: translate(-700px, 180px) scale(3.5) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0%{
+      transform: translate(-700px, 180px) scale(3.1) ;
+    }
+    100%{
+      transform: translate(-500px, 500px) scale(2.1) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0%{
+      transform: translate(-500px, 500px) scale(2.1) ;
+    }
+    100%{
+      transform: translate(-250px, 180px) scale(3.3) rotate(250deg) ;
+    }
+  }
+  
+  .bgm1-text{
+    width: 45%;
+    height: 20%;
+    margin: 400px   450px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 30px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo{
+    width: 65%;
+    height: 85%;
+    margin: 5%  20% ;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text{
+    width: 25%;
+    height: 25%;
+    margin: 31%   21%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 34px;
+  }
+  
+  .bgm3{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1{
+    position: absolute;
+    width: 25%;
+    height: 60%;
+    bottom: -50%;
+   margin: 24%  75% 5% 44% ;
+   z-index: 3;
+   position: absolute;
+   transition: 2s;
+   animation-name: bgm3_plant1;
+   animation-duration: 1s;
+   animation-delay: .1s;
+   animation-play-state: paused;
+   animation-timing-function: linear;
+   animation-fill-mode: forwards; 
+  }
+  @keyframes bgm3_plant1 {
+    0%{
+      bottom: -50%;
+    }
+    100%{
+      bottom: -15%;
+   margin: 24%  75% 5% 44% ;
+  
+    }
+  }
+    
+  
+  #bgm3-plant2{
+    width: 25%;
+    height: 60%;
+    left: 50%;
+  
+    margin: 22%  70% 0% 50% ;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  } 
+  
+  @keyframes bgm3_plant2 {
+    0%{
+      left: 50%;
+    }
+    100%{
+      left: 6%;
+    margin: 22%  70% 0% 50% ;
+  
+    }
+  }
+  
+  #bgm3-h2{
+    width: 50%;
+    height: 20%;
+    margin: 27%  37%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 35px;
+  }
+  
+  #bgm4-h2{
+    width: 55%;
+    height: 20%;
+    margin: 33%  25%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 32px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12{
+    width: 15%;
+    height: 60%;
+   margin: 6%  70% 5% 28% ;
+   z-index: 4;
+   position: absolute;
+   transition: 2s;
+   opacity: 0;
+  }
+  
+  #bgm4-suit13{
+    width: 15%;
+    height: 60%;
+   margin: 6%  70% 5% 44% ;
+   z-index: 4;
+   position: absolute;
+   transition: 2s;
+   opacity: 0;
+  }
+  
+  #bgm4-suit2{
+    width: 25%;
+    height: 65%;
+    margin: 3.5%  70% 0% 55% ;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1{
+    width: 7%;
+    height: 5%;
+    margin: 27%  46.5%;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+  }
+  
+  .back{
+    width: 10%;
+    height: 5%;
+    margin: 45%  12%;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next{
+    width: 10%;
+    height: 5%;
+    margin: 45%  82%;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer{
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 40% auto;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+  
+  .footer-icons ul{
+    width: 80%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    font-size: 50px;
+  }
+  
+  .footer ul li{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 100px;
+    height:50px;
+  }
+  
+  .footer-icons{
+    width: 30%;
+    height: 70px ;
+    margin-top: 20px;
+    margin-left: 35%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+  }
+  
+  .footer-icons .fabb2{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px
+  }
+  
+  .fabb3{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+  }
+ }
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width:1399.98px) {
+  .background {
+    overflow: hidden;
+  }
+  
+  .bg1 {
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+  
+  .bgm1 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #bgm1-logo {
+    width: 60%;
+    height: 90%;
+    margin: -50px 0px 0px 350px;
+    z-index: 4;
+    opacity: 0.6;
+    position: absolute;
+    transition: 2s;
+  
+    animation-name: logo1Tra;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes logo1Tra {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      z-index: 5;
+      opacity: .2;
+      margin-left: 35%;
+      margin-top: 5%;
+      width: 30%;
+      height: 60%;
+    }
+  }
+  
+  #bgm1-moon {
+    width: 10%;
+    height: 20%;
+    margin-top: 8%;
+    margin-left: 62.04%;
+    scale: (1.1);
+    z-index: 3;
+    opacity: 1;
+    position: absolute;
+    transition: 3s;
+  
+    animation-name: moonTr2, moonTr3, moonTr4, moonTr5;
+    animation-duration: 3s, 1s, 1s, 1s;
+    animation-delay: .5s, .1s, .1s, .1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused, paused, paused, paused;
+  }
+  
+  @keyframes moonTr2 {
+    0% {
+      transform: translate(11px, -5px);
+    }
+  
+    100% {
+      transform: translate(51px, 301px) scale(3.5) rotate(540deg);
+    }
+  
+  }
+  
+  @keyframes moonTr3 {
+    0% {
+      transform: translate(51px, 301px) scale(2.8);
+    }
+  
+    100% {
+      transform: translate(-700px, 180px) scale(3.5) rotate(-360deg);
+    }
+  
+  }
+  
+  @keyframes moonTr4 {
+    0% {
+      transform: translate(-700px, 180px) scale(3.1);
+    }
+  
+    100% {
+      transform: translate(-500px, 500px) scale(2.1) rotate(540deg);
+    }
+  }
+  
+  @keyframes moonTr5 {
+    0% {
+      transform: translate(-500px, 500px) scale(2.1);
+    }
+  
+    100% {
+      transform: translate(-250px, 180px) scale(3.3) rotate(250deg);
+    }
+  }
+  
+  .bgm1-text {
+    width: 45%;
+    height: 20%;
+    margin: 400px 450px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 30px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////// */
+  
+  .bgm2 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  #bgm2-logo {
+    width: 65%;
+    height: 85%;
+    margin: 2% 30%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm2-text {
+    width: 30%;
+    height: 20%;
+    margin: 20% 25%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 32px;
+  }
+  
+  .bgm3 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  #bgm3-plant1 {
+    position: absolute;
+    width: 25%;
+    height: 60%;
+    bottom: -50%;
+    margin: 24% 75% 5% 44%;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant1;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes bgm3_plant1 {
+    0% {
+      bottom: -50%;
+    }
+  
+    100% {
+      bottom: -15%;
+      margin: 24% 75% 5% 44%;
+  
+    }
+  }
+  
+  
+  #bgm3-plant2 {
+    width: 25%;
+    height: 60%;
+    left: 50%;
+  
+    margin: 22% 70% 0% 50%;
+    z-index: 3;
+    position: absolute;
+    transition: 2s;
+    animation-name: bgm3_plant2;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes bgm3_plant2 {
+    0% {
+      left: 50%;
+    }
+  
+    100% {
+      left: 6%;
+      margin: 22% 70% 0% 50%;
+  
+    }
+  }
+  
+  #bgm3-h2 {
+    width: 50%;
+    height: 20%;
+    margin: 23% 37%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 35px;
+  }
+  
+  #bgm4-h2 {
+    width: 55%;
+    height: 20%;
+    margin: 33% 25%;
+    text-align: center;
+    z-index: 4;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 32px;
+    transition: 2s;
+  }
+  
+  #bgm4-suit12 {
+    width: 15%;
+    height: 60%;
+    margin: 6% 70% 5% 28%;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit13 {
+    width: 15%;
+    height: 60%;
+    margin: 6% 70% 5% 44%;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #bgm4-suit2 {
+    width: 25%;
+    height: 65%;
+    margin: 3.5% 70% 0% 55%;
+    z-index: 4;
+    position: absolute;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  .btn1 {
+    width: 7%;
+    height: 5%;
+    margin: 27% 46.5%;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+  }
+  
+  .back {
+    width: 10%;
+    height: 5%;
+    bottom: -90%;
+    left: -4%;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .next {
+    width: 10%;
+    height: 5%;
+    bottom: -90%;
+    left: -4%;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .footer {
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    margin: 40% auto;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-color: rgba(22, 101, 247, 0);
+  }
+  
+  .footer-h {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+  }
+  
+  .footer-icons ul {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    font-size: 50px;
+  }
+  
+  .footer ul li {
+    display: inline;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+  }
+  
+  .footer-icons {
+    width: 30%;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 35%;
+  }
+  
+  .footer-icons .fabb1 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+  }
+  
+  .footer-icons .fabb2 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px
+  }
+  
+  .fabb3 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+  }
+}
+
+/* ///////////////////////-about-/////////////////// */
+
+.container{
+  overflow: hidden;
+  display: grid;
+  grid-template-columns:repeat(1 ,1fr) ;
+  grid-auto-rows: minmax(100vh ,auto);
+}
+
+.content{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow:auto ;
+  /* background-image: url(../images/501152.jpg);
+  background-size: cover; */
+}
+
+.about1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.item , .item1{
+  width: 75%;
+  height: 75%;
+  top: 20%;
+  left: 15%;
+  right: 15%;
+  text-align: left;
+  position: absolute;
+  color: white;
+  z-index: 4;
+  font-size: 18px;
+}
+
+.item  a ,h3{
+  text-decoration: none;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 20px;
+}
+
+.miss-h{
+  margin-left: 37%;
+  color: white;
+  font-size: 28px ;
+}
+
+.miss-h2{
+  margin-left: 35%;
+  margin-top: 20px;
+  color: white;
+  font-size: 30px ;
+  opacity: 0.7;
+}
+
+
+
+
+
